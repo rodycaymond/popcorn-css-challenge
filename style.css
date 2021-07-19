@@ -3,3 +3,71 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D4A75A;
+}
+header {
+    background-color: #FFDBAA;
+    border-bottom: 2px solid black;
+}
+.wrapper {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding: 18px 0px 36px 0px;
+}
+.headline {
+    width: 50%;
+}
+.headline h1 {
+    color: #553100;
+}
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+nav p {
+    padding: 5px 10px;
+    background-color: #805215;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 96px 0px;
+}
+.floater {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+}
+.clickme, .s2-clickme {
+    color: whitesmoke;
+    background-color: #805215;
+    margin-top: 10px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px 0px;
+}
+.section2-floater {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    width: 90%;
+    margin: auto;
+}
+.section1, .section2 {
+    max-width: 1200px;
+    margin: auto;
+}
